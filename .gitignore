@@ -8,6 +8,7 @@ ranger/folders.conf
 ranger/plugins/*
 
 !/.gitignore
+!/README.md
 
 !/nvim/
 nvim/plugged/*
