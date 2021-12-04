@@ -1,0 +1,2303 @@
+{
+  "coc-python|/Users/lsli/Desktop/Test/Underworld_test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:61056228ebccf3cd1fd1c2109a1899a2": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:61056228ebccf3cd1fd1c2109a1899a2": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lsli/Desktop/Test/Underworld_test": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "63a8c4fe8266828fe3f231294c2076102f040d96c36fb518dbd8a2ad8ca6f4e1f59e99f13d25c45eebc842c6309eec85b625de57aa2aca0a68e82c562859b1f9",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python"
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4"
+      },
+      "expiry": 1638621908776
+    },
+    "/usr/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "1c551f2cf29dfa01b8f384f2c2ec14abdabfc2c94eb79a8ecf44b5dbdc952159639b5db7de0069245fed52e6326779c0e1324b01fd9dfceb17f8ab9c5c552395"
+      },
+      "expiry": 1638621909095
+    },
+    "/Users/lsli/anaconda3/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.12-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.12-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3",
+        "fileHash": "a52cefcb84bf2a3c08bb99b90aee62582b53c6b0fc807201b2d7c17dc5c5b9989f5e8ebea6f48bf0660113969952c10076cace77c783fbf39ed6045986d76dc6"
+      },
+      "expiry": 1638621908724
+    },
+    "/Users/lsli/anaconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.12-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.12-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3",
+        "fileHash": "3983066857b933173f0520213b7d472e23dfaef2cc3500eacdad4eff8910c39ce1b142549c505fa547f54f02546df85e33b2fd2df0cf3a448b74235a72db3156"
+      },
+      "expiry": 1638621908738
+    },
+    "/Users/lsli/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.12-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.12-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3",
+        "fileHash": "e0d1875a4593be38e677a4d5dff1ac33e7f2ce1506e7115bb75956875636e804e4beeeaabe8624a50c610e385793d6212720b5c5dfbc87e079521f0a082dadbe"
+      },
+      "expiry": 1638621908735
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9"
+      },
+      "expiry": 1638621909154
+    },
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9"
+      },
+      "expiry": 1638621909158
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9"
+      },
+      "expiry": 1638621909150
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9"
+      },
+      "expiry": 1638621909157
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "0b8c9c5ecb7195ae45a2b831c20dbc8b627d1373a1f6c54a05fd0e8102b8f59423389af2df0c3c5bcdd487253b9674c4830599ae1806edbcb277d494a0a80109"
+      },
+      "expiry": 1621150653418
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.3-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.3-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+        "fileHash": "0078eae740cc6842072d919f177cb5726d551c74d6def69c1b70b581ea02392205aaa05ac20ad9ca9fc867d8cbe0d27b360c29d492f5a4386c589db46f446773"
+      },
+      "expiry": 1621150653416
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "87522fa0ff89c7b35c42d263acb2a8aa5b6c6c7892f8fe0642867c29807b95cb910e6603524c82726ea0c3c76d7aff3dd1ad3a52fdde939ce1250764bd318585",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "02a492cf0850458da92e94e2c62cc34d87f1b05f1a48f2ae8bab00848b42af878d8ad6a58820cc5674da8f7463bfb97fb04baf5aea07ef28d98f93dbe91af03b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "1c551f2cf29dfa01b8f384f2c2ec14abdabfc2c94eb79a8ecf44b5dbdc952159639b5db7de0069245fed52e6326779c0e1324b01fd9dfceb17f8ab9c5c552395",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "1c551f2cf29dfa01b8f384f2c2ec14abdabfc2c94eb79a8ecf44b5dbdc952159639b5db7de0069245fed52e6326779c0e1324b01fd9dfceb17f8ab9c5c552395",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "1c551f2cf29dfa01b8f384f2c2ec14abdabfc2c94eb79a8ecf44b5dbdc952159639b5db7de0069245fed52e6326779c0e1324b01fd9dfceb17f8ab9c5c552395",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.9-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.9-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      }
+    ],
+    "/usr/local/opt/python@3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/opt/python@3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.5-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.5-final"
+        },
+        "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "6533a9ee56f5b4cdbef9ce3922063311298f2ed94455a2c0d4920cba4f74af828ed342fa8082e08a22f21e8e38c47f66bfabab1499d3db46dcd7c2b68430a7a6"
+      },
+      "expiry": 1638621909189
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9"
+      },
+      "expiry": 1638621909214
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "02a492cf0850458da92e94e2c62cc34d87f1b05f1a48f2ae8bab00848b42af878d8ad6a58820cc5674da8f7463bfb97fb04baf5aea07ef28d98f93dbe91af03b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "87522fa0ff89c7b35c42d263acb2a8aa5b6c6c7892f8fe0642867c29807b95cb910e6603524c82726ea0c3c76d7aff3dd1ad3a52fdde939ce1250764bd318585",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.18-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 18,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.18-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+        "type": "Unknown"
+      }
+    ],
+    "/Users/lsli/anaconda3/envs/underworld-pip/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d"
+      },
+      "expiry": 1638621909187
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.7.10-final",
+        "major": 3,
+        "minor": 7,
+        "patch": 10,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.7.10-final"
+      },
+      "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+      "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+      "type": "Unknown"
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+      "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/Users/lsli/anaconda3/envs/python3.9",
+      "envName": "python3.9",
+      "displayName": "Python 3.9.7 64-bit ('python3.9': conda)"
+    },
+    "ProposeLSBanner": false,
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "6533a9ee56f5b4cdbef9ce3922063311298f2ed94455a2c0d4920cba4f74af828ed342fa8082e08a22f21e8e38c47f66bfabab1499d3db46dcd7c2b68430a7a6",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/opt/python@3.9/bin/python3.9",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.5-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.5-final"
+          },
+          "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "6533a9ee56f5b4cdbef9ce3922063311298f2ed94455a2c0d4920cba4f74af828ed342fa8082e08a22f21e8e38c47f66bfabab1499d3db46dcd7c2b68430a7a6",
+          "type": "Unknown",
+          "displayName": "Python 3.9.5 64-bit"
+        }
+      },
+      "expiry": 1638621909588
+    },
+    "/Users/lsli/anaconda3/envs/vsc/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/vsc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.9-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.9-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/vsc",
+        "fileHash": "84e25958d1ffbdaac1f5282d6e602b1d160c520ff02fa3079459aa455d393432f4c3c256f8196c8356296067d960e16e163152387110acedbd4c3492bd19744a"
+      },
+      "expiry": 1638621909148
+    },
+    "/usr/local/opt/python@3.9/bin/python3.9.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.5 64-bit",
+        "hash": "6533a9ee56f5b4cdbef9ce3922063311298f2ed94455a2c0d4920cba4f74af828ed342fa8082e08a22f21e8e38c47f66bfabab1499d3db46dcd7c2b68430a7a6-1bb40684dde5a01180258c4a93fa3e8d"
+      },
+      "expiry": 1638621909517
+    },
+    "CONDA_ENVIRONMENTS": {},
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.12-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.12-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3",
+        "fileHash": "e0d1875a4593be38e677a4d5dff1ac33e7f2ce1506e7115bb75956875636e804e4beeeaabe8624a50c610e385793d6212720b5c5dfbc87e079521f0a082dadbe",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3",
+        "envName": "anaconda3"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/vsc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.9-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.9-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/vsc",
+        "fileHash": "84e25958d1ffbdaac1f5282d6e602b1d160c520ff02fa3079459aa455d393432f4c3c256f8196c8356296067d960e16e163152387110acedbd4c3492bd19744a",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3/envs/vsc",
+        "envName": "vsc"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "envName": "underworld-pip"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/pyps/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.10-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/pyps",
+        "fileHash": "ca2bbc6250d9a8fccd2b5981fc2b2d6fa24b7a84414bc5f851b2f911b7caf4a4798b50db14fc663e220522cec949ea59bf134c666a479b53c83cee9871a15337",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3/envs/pyps",
+        "envName": "pyps"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/scicalc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.10-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/scicalc",
+        "fileHash": "cf597ca19d38d1cef6c8d6b17a7da5219492fd9bf378f941b32cf1a442f3798ae3388e98069818accb59a67cdb02728e061180072d6ce872e27556914cb3d0a7",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3/envs/scicalc",
+        "envName": "scicalc"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/pyps2.3.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.12-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.12-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/pyps2.3.0",
+        "fileHash": "35f320cbb83229f977bf379a610cca780b1bf10193697847d6dd2d9280b6bf427183ea605e38a5bc59728f1cc61ce3b7d3a287d5f8153e6d34879bef34f8b9f8",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3/envs/pyps2.3.0",
+        "envName": "pyps2.3.0"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+        "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/Users/lsli/anaconda3/envs/python3.9",
+        "envName": "python3.9"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "PipEnvInformation": [],
+    "/Users/lsli/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.12 64-bit ('anaconda3': conda)",
+        "hash": "e0d1875a4593be38e677a4d5dff1ac33e7f2ce1506e7115bb75956875636e804e4beeeaabe8624a50c610e385793d6212720b5c5dfbc87e079521f0a082dadbe-4ed62bee5269648458d5e4e5b4629902"
+      },
+      "expiry": 1638621909497
+    },
+    "/Users/lsli/anaconda3/envs/vsc/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.9 64-bit ('vsc': conda)",
+        "hash": "84e25958d1ffbdaac1f5282d6e602b1d160c520ff02fa3079459aa455d393432f4c3c256f8196c8356296067d960e16e163152387110acedbd4c3492bd19744a-0c3dc3e2aa384e2aa18139817423f0fb"
+      },
+      "expiry": 1638621909499
+    },
+    "/Users/lsli/anaconda3/envs/underworld-pip/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.10 64-bit ('underworld-pip': conda)",
+        "hash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d-4bfd61ecbd5db9c7a467baf01ed00ba5"
+      },
+      "expiry": 1638621909501
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.5 64-bit",
+        "hash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4-24157cdf93721074271e17f98e1c7530"
+      },
+      "expiry": 1638621909512
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.9 64-bit",
+        "hash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9-542aece633a089f5f7b6f8369e518ceb"
+      },
+      "expiry": 1638621909515
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9-b217ac62bc07e69063324488ae0f9e29"
+      },
+      "expiry": 1638621909510
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.3 64-bit",
+        "hash": "0b8c9c5ecb7195ae45a2b831c20dbc8b627d1373a1f6c54a05fd0e8102b8f59423389af2df0c3c5bcdd487253b9674c4830599ae1806edbcb277d494a0a80109-019faeed9aa56b423854d1c6443b5b03"
+      },
+      "expiry": 1621150705337
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.18 64-bit",
+        "hash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9-67f655005007a67696ad6923199829e8"
+      },
+      "expiry": 1638621909519
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+      "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/Users/lsli/anaconda3/envs/python3.9",
+      "envName": "python3.9",
+      "displayName": "Python 3.9.7 64-bit ('python3.9': conda)"
+    },
+    "/Users/lsli/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e0d1875a4593be38e677a4d5dff1ac33e7f2ce1506e7115bb75956875636e804e4beeeaabe8624a50c610e385793d6212720b5c5dfbc87e079521f0a082dadbe",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.12-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 12,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.12-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3",
+          "fileHash": "e0d1875a4593be38e677a4d5dff1ac33e7f2ce1506e7115bb75956875636e804e4beeeaabe8624a50c610e385793d6212720b5c5dfbc87e079521f0a082dadbe",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3",
+          "envName": "anaconda3",
+          "displayName": "Python 3.7.12 64-bit ('anaconda3': conda)"
+        }
+      },
+      "expiry": 1638621909545
+    },
+    "/Users/lsli/anaconda3/envs/vsc/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "84e25958d1ffbdaac1f5282d6e602b1d160c520ff02fa3079459aa455d393432f4c3c256f8196c8356296067d960e16e163152387110acedbd4c3492bd19744a",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/envs/vsc/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.9-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.9-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3/envs/vsc",
+          "fileHash": "84e25958d1ffbdaac1f5282d6e602b1d160c520ff02fa3079459aa455d393432f4c3c256f8196c8356296067d960e16e163152387110acedbd4c3492bd19744a",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3/envs/vsc",
+          "envName": "vsc",
+          "displayName": "Python 3.7.9 64-bit ('vsc': conda)"
+        }
+      },
+      "expiry": 1638621909549
+    },
+    "/Users/lsli/anaconda3/envs/underworld-pip/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.10-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.10-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+          "fileHash": "a6492d536d92254b2724022a75796c6c473778313687d046ce7e42f72d6012169bc98b2aa41debb26beea0363b7b23224b459f2b6eb19e94203be0ff8de9863d",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3/envs/underworld-pip",
+          "envName": "underworld-pip",
+          "displayName": "Python 3.7.10 64-bit ('underworld-pip': conda)"
+        }
+      },
+      "expiry": 1638621909554
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.5-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.5-final"
+          },
+          "sysPrefix": "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "77b3255de5f51dc9788c8d53d2414f57217aeb9ddd4e98ff2ae23a3116e9e50238ccf32224007f523443601b352445ba50e36e8c8c260a4e4805048d2b6096d4",
+          "type": "Unknown",
+          "displayName": "Python 3.9.5 64-bit"
+        }
+      },
+      "expiry": 1638621909578
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.9-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.9-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+          "type": "Unknown",
+          "displayName": "Python 3.8.9 64-bit"
+        }
+      },
+      "expiry": 1638621909583
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1638621909573
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "0b8c9c5ecb7195ae45a2b831c20dbc8b627d1373a1f6c54a05fd0e8102b8f59423389af2df0c3c5bcdd487253b9674c4830599ae1806edbcb277d494a0a80109",
+        "info": {
+          "architecture": 3,
+          "path": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.3-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.3-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.7",
+          "fileHash": "0b8c9c5ecb7195ae45a2b831c20dbc8b627d1373a1f6c54a05fd0e8102b8f59423389af2df0c3c5bcdd487253b9674c4830599ae1806edbcb277d494a0a80109",
+          "type": "Unknown",
+          "displayName": "Python 3.7.3 64-bit"
+        }
+      },
+      "expiry": 1621150705374
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.18-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 18,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.18-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "c72b27555756bee6a8480b086484361147beecb25e73087c260b88ac311dbf43189c9258ab57b7a028c3e52738a8d6958604adacd89b626b01b6a4639b25c6a9",
+          "type": "Unknown",
+          "displayName": "Python 2.7.18 64-bit"
+        }
+      },
+      "expiry": 1638621909592
+    },
+    "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "02a492cf0850458da92e94e2c62cc34d87f1b05f1a48f2ae8bab00848b42af878d8ad6a58820cc5674da8f7463bfb97fb04baf5aea07ef28d98f93dbe91af03b"
+      },
+      "expiry": 1638625776711
+    },
+    "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.10-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/underworld-pip",
+        "fileHash": "87522fa0ff89c7b35c42d263acb2a8aa5b6c6c7892f8fe0642867c29807b95cb910e6603524c82726ea0c3c76d7aff3dd1ad3a52fdde939ce1250764bd318585"
+      },
+      "expiry": 1638625776709
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+      "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/Users/lsli/anaconda3/envs/python3.9",
+      "envName": "python3.9",
+      "displayName": "Python 3.9.7 64-bit ('python3.9': conda)"
+    },
+    "/Users/lsli/anaconda3/envs/pyps/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/pyps/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.10-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/pyps",
+        "fileHash": "ca2bbc6250d9a8fccd2b5981fc2b2d6fa24b7a84414bc5f851b2f911b7caf4a4798b50db14fc663e220522cec949ea59bf134c666a479b53c83cee9871a15337"
+      },
+      "expiry": 1638621909184
+    },
+    "/Users/lsli/anaconda3/envs/scicalc/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/scicalc/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.10-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/scicalc",
+        "fileHash": "cf597ca19d38d1cef6c8d6b17a7da5219492fd9bf378f941b32cf1a442f3798ae3388e98069818accb59a67cdb02728e061180072d6ce872e27556914cb3d0a7"
+      },
+      "expiry": 1638621909190
+    },
+    "/Users/lsli/anaconda3/envs/pyps/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.10 64-bit ('pyps': conda)",
+        "hash": "ca2bbc6250d9a8fccd2b5981fc2b2d6fa24b7a84414bc5f851b2f911b7caf4a4798b50db14fc663e220522cec949ea59bf134c666a479b53c83cee9871a15337-82cb7e783573d7034ad8fd9c9945a4be"
+      },
+      "expiry": 1638621909506
+    },
+    "/Users/lsli/anaconda3/envs/scicalc/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.10 64-bit ('scicalc': conda)",
+        "hash": "cf597ca19d38d1cef6c8d6b17a7da5219492fd9bf378f941b32cf1a442f3798ae3388e98069818accb59a67cdb02728e061180072d6ce872e27556914cb3d0a7-a5081d245146184e58ff50b51b43c8b1"
+      },
+      "expiry": 1638621909504
+    },
+    "/Users/lsli/anaconda3/envs/pyps/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ca2bbc6250d9a8fccd2b5981fc2b2d6fa24b7a84414bc5f851b2f911b7caf4a4798b50db14fc663e220522cec949ea59bf134c666a479b53c83cee9871a15337",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/envs/pyps/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.10-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.10-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3/envs/pyps",
+          "fileHash": "ca2bbc6250d9a8fccd2b5981fc2b2d6fa24b7a84414bc5f851b2f911b7caf4a4798b50db14fc663e220522cec949ea59bf134c666a479b53c83cee9871a15337",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3/envs/pyps",
+          "envName": "pyps",
+          "displayName": "Python 3.8.10 64-bit ('pyps': conda)"
+        }
+      },
+      "expiry": 1638621909564
+    },
+    "/Users/lsli/anaconda3/envs/scicalc/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "cf597ca19d38d1cef6c8d6b17a7da5219492fd9bf378f941b32cf1a442f3798ae3388e98069818accb59a67cdb02728e061180072d6ce872e27556914cb3d0a7",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/envs/scicalc/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.10-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 10,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.10-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3/envs/scicalc",
+          "fileHash": "cf597ca19d38d1cef6c8d6b17a7da5219492fd9bf378f941b32cf1a442f3798ae3388e98069818accb59a67cdb02728e061180072d6ce872e27556914cb3d0a7",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3/envs/scicalc",
+          "envName": "scicalc",
+          "displayName": "Python 3.8.10 64-bit ('scicalc': conda)"
+        }
+      },
+      "expiry": 1638621909559
+    },
+    "/Users/lsli/anaconda3/envs/pyps/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/pyps/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.10-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/pyps",
+        "fileHash": "a01fed86f084944b82a885546c7d67e2322bcbf0acf4280ac1134ec61623ffbf4db380705b0c9398ddafe7f739e0d37e84713acdad9af0e02b3dc1281a560ac3"
+      },
+      "expiry": 1634281103020
+    },
+    "/Users/lsli/anaconda3/envs/pyps/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/pyps/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.10-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 10,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.10-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/pyps",
+        "fileHash": "d617a15258b90cf2b48b4ce8f6f0fcdd260624346f12026213ffc59965afbd4791db1278f6d21c735c413c5a646aa53f5c876a49627a255a7c53cbcbd9f699c2"
+      },
+      "expiry": 1634281103019
+    },
+    "/Users/lsli/anaconda3/envs/pyps2.3.0/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/pyps2.3.0/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.12-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 12,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.12-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/pyps2.3.0",
+        "fileHash": "35f320cbb83229f977bf379a610cca780b1bf10193697847d6dd2d9280b6bf427183ea605e38a5bc59728f1cc61ce3b7d3a287d5f8153e6d34879bef34f8b9f8"
+      },
+      "expiry": 1638621909186
+    },
+    "/Users/lsli/anaconda3/envs/pyps2.3.0/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.12 64-bit ('pyps2.3.0': conda)",
+        "hash": "35f320cbb83229f977bf379a610cca780b1bf10193697847d6dd2d9280b6bf427183ea605e38a5bc59728f1cc61ce3b7d3a287d5f8153e6d34879bef34f8b9f8-413b7bbf17a477a849413a61fe44546f"
+      },
+      "expiry": 1638621909508
+    },
+    "/Users/lsli/anaconda3/envs/pyps2.3.0/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "35f320cbb83229f977bf379a610cca780b1bf10193697847d6dd2d9280b6bf427183ea605e38a5bc59728f1cc61ce3b7d3a287d5f8153e6d34879bef34f8b9f8",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/envs/pyps2.3.0/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.12-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 12,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.12-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3/envs/pyps2.3.0",
+          "fileHash": "35f320cbb83229f977bf379a610cca780b1bf10193697847d6dd2d9280b6bf427183ea605e38a5bc59728f1cc61ce3b7d3a287d5f8153e6d34879bef34f8b9f8",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3/envs/pyps2.3.0",
+          "envName": "pyps2.3.0",
+          "displayName": "Python 3.8.12 64-bit ('pyps2.3.0': conda)"
+        }
+      },
+      "expiry": 1638621909568
+    },
+    "/Users/lsli/anaconda3/envs/python3.9/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+        "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956"
+      },
+      "expiry": 1638621909146
+    },
+    "/Users/lsli/anaconda3/envs/python3.9/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.7 64-bit ('python3.9': conda)",
+        "hash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956-875a5b78f29c0a0ff0e7035c212474df"
+      },
+      "expiry": 1638625689914
+    },
+    "/Users/lsli/anaconda3/envs/python3.9/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.7-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.7-final"
+          },
+          "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+          "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/Users/lsli/anaconda3/envs/python3.9",
+          "envName": "python3.9",
+          "displayName": "Python 3.9.7 64-bit ('python3.9': conda)"
+        }
+      },
+      "expiry": 1638625689960
+    },
+    "/Users/lsli/anaconda3/envs/python3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+        "fileHash": "aee16d95778c0f55e1f8c12e2ce75560fc38e0e9d43feb11b525764ec3601419f53e3d56b3e084047334c8aee0840e1f5a5b58f129472af5bf95f7752239644d"
+      },
+      "expiry": 1634279912907
+    },
+    "/Users/lsli/anaconda3/envs/python3.9/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+        "fileHash": "5c4f89f48685906c580088945dd971e46b8f8cca05b67a3c8a3070934de04b0e777f11315328eef93e4e9d82e61180aa817696655b8c315246a3c1150709455d"
+      },
+      "expiry": 1634279913040
+    }
+  },
+  "coc-python|/Users/lsli": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lsli/anaconda3/envs/underworld-pip/lib/python3.7/site-packages/underworld": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e8da6db703f34098b19af287bd797983": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e8da6db703f34098b19af287bd797983": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lsli/anaconda3/envs/underworld-pip/lib/python3.7/site-packages/underworld": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "63a8c4fe8266828fe3f231294c2076102f040d96c36fb518dbd8a2ad8ca6f4e1f59e99f13d25c45eebc842c6309eec85b625de57aa2aca0a68e82c562859b1f9",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/.config/nvim": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7520f6cd99b7c4e46f98642acca83ca5": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7520f6cd99b7c4e46f98642acca83ca5": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/ut": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:d4f165db3ca5f338e42a7a0813aed9dd": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:d4f165db3ca5f338e42a7a0813aed9dd": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lsli/Desktop/ut": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "63a8c4fe8266828fe3f231294c2076102f040d96c36fb518dbd8a2ad8ca6f4e1f59e99f13d25c45eebc842c6309eec85b625de57aa2aca0a68e82c562859b1f9",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/Users/lsli/anaconda3/envs/underworld-pip/bin/python"
+  },
+  "coc-python|/Users/lsli/Desktop/uwt": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:9e96110535c729ce019e64c7f5c06716": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9e96110535c729ce019e64c7f5c06716": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lsli/Desktop/uwt": {
+      "architecture": 3,
+      "path": "/usr/local/opt/python@3.9/bin/python3.9",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.1-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 1,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.1-final"
+      },
+      "sysPrefix": "/usr/local/Cellar/python@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "63a8c4fe8266828fe3f231294c2076102f040d96c36fb518dbd8a2ad8ca6f4e1f59e99f13d25c45eebc842c6309eec85b625de57aa2aca0a68e82c562859b1f9",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService:7520f6cd99b7c4e46f98642acca83ca5": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7520f6cd99b7c4e46f98642acca83ca5": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:403188ca068c0c5420e42df749d47c27": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:403188ca068c0c5420e42df749d47c27": []
+  },
+  "coc-python|/Users/lsli/underworld2": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:5cece179b9ccbeb9a8ec6dda555aee1a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5cece179b9ccbeb9a8ec6dda555aee1a": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/software/underworld-2.11/underworld/systems": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:34d08796cd1b760d71d90f31e56eb5dc": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:34d08796cd1b760d71d90f31e56eb5dc": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/ld_p2_v_l_h": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:9e96110535c729ce019e64c7f5c06716": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9e96110535c729ce019e64c7f5c06716": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:2c3f541be8a1f7f6c7f723573e0b21fc": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2c3f541be8a1f7f6c7f723573e0b21fc": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/ld_p2_v_l_h/output": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:464db1c70effba2f5429f788afcb0fee": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:464db1c70effba2f5429f788afcb0fee": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/ld_p2_v_l_h/output/picture": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:19a9ad33c8dcd68aacc6fb5a0d9c1cac": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:19a9ad33c8dcd68aacc6fb5a0d9c1cac": []
+  },
+  "coc-python|/Users/lsli/Documents/hpc-data/plate3d": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:1f1ab86a827403497a036ec9777790fb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:1f1ab86a827403497a036ec9777790fb": []
+  },
+  "coc-python|/Users/lsli/Documents/hpc-data": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:5017635cd06fd5f2f302d05fa543a885": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:5017635cd06fd5f2f302d05fa543a885": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/single_slab": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:c025709ac10790a05177fc8c47781a19": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:c025709ac10790a05177fc8c47781a19": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:88bf8ceaec05a40738191d94ce245e1b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:88bf8ceaec05a40738191d94ce245e1b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/tmss": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a5e749ef95a69c3984355d1dd312d8a0": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a5e749ef95a69c3984355d1dd312d8a0": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/tmp": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:262a38fecc9d240169cb70b6f7b37a9a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:262a38fecc9d240169cb70b6f7b37a9a": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:9e96110535c729ce019e64c7f5c06716": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9e96110535c729ce019e64c7f5c06716": []
+  },
+  "coc-python|/Users/lsli/Desktop/tmp1": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:fc0744cdc52147fea81d10427644da4b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:fc0744cdc52147fea81d10427644da4b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/tmp2": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:99839aa9a6c653d2553e003afe27d2eb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:99839aa9a6c653d2553e003afe27d2eb": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/ld_p2_v_l_h/output/doublesub/ld_p2_v_l_h/p2_v00300_l03000_h075": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:403188ca068c0c5420e42df749d47c27": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:403188ca068c0c5420e42df749d47c27": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/test_uwt": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ad8df9778afb07f9f9b704f2b09b4112": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ad8df9778afb07f9f9b704f2b09b4112": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Documents/hpc-data/plt": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2d01cd86816dc7ff02e74bd7547d0389": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2d01cd86816dc7ff02e74bd7547d0389": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cef51bd53fb7f9b61f243169354af0eb": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/doubsubd/pl_test/r250_h250_lt90_rt90": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7ff97f417fb432dae606a260506ab098": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7ff97f417fb432dae606a260506ab098": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/doubsubd": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2c3f541be8a1f7f6c7f723573e0b21fc": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2c3f541be8a1f7f6c7f723573e0b21fc": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:cef51bd53fb7f9b61f243169354af0eb": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:9e96110535c729ce019e64c7f5c06716": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:9e96110535c729ce019e64c7f5c06716": []
+  },
+  "coc-python|/Users/lsli/Desktop/results": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:29017667a49f141f1c73e6442d4f7c78": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:29017667a49f141f1c73e6442d4f7c78": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/results": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:7c4081393078947ff01e79edcde0dfbe": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:7c4081393078947ff01e79edcde0dfbe": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Downloads/[tool.lu]1634192429": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:f93c37a36dc08c73d402cd0685dd3482": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:f93c37a36dc08c73d402cd0685dd3482": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Downloads": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:59389733a003b77f8e2f496ecc3f6ff4": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:59389733a003b77f8e2f496ecc3f6ff4": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/Test/p-t-KL23": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:88bf8ceaec05a40738191d94ce245e1b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:88bf8ceaec05a40738191d94ce245e1b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:552d42769d06bcfa77632bdb18789ba8": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:552d42769d06bcfa77632bdb18789ba8": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:67a4f46bdfb623bb46ee22ad8bfd269b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:67a4f46bdfb623bb46ee22ad8bfd269b": []
+  },
+  "coc-python|/Users/lsli/anaconda3/envs/pyps/lib/python3.8/site-packages/pypsbuilder": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:b423fe2732edd7b3174c1beb5e2d8e1d": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b423fe2732edd7b3174c1beb5e2d8e1d": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/repo/pypsbuilder-2.3.0": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:67a4f46bdfb623bb46ee22ad8bfd269b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:67a4f46bdfb623bb46ee22ad8bfd269b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/repo/pypsbuilder-2.3.0/pypsbuilder": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/results/symme/new/3": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:061d1007752a8950706f402ae55fe70b": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:061d1007752a8950706f402ae55fe70b": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/uwt/results/symme/new/4": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:b22e84f9a2b438b48cea3548253cff5a": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:b22e84f9a2b438b48cea3548253cff5a": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Volumes/AppleExternal.nosync/C++/ArchaeanMCMC": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2d74b43b457d667e47de4db2525f4737": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2d74b43b457d667e47de4db2525f4737": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Volumes/AppleExternal.nosync/numericresult/mine2": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:70b7c2743fcd1c82588a0c9cc834f378": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:70b7c2743fcd1c82588a0c9cc834f378": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Volumes/AppleExternal.nosync/source": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:6029949a800fd5e25a2e843781888609": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:6029949a800fd5e25a2e843781888609": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Volumes/AppleExternal.nosync/doublesubduction": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:06a900e44a2f256bc9ec8ae033859389": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:06a900e44a2f256bc9ec8ae033859389": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/Users/lsli/Desktop/gitrepos/doublesubduction": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:fd7e3b6a0ed9504181686021c87bc967": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:fd7e3b6a0ed9504181686021c87bc967": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/lsli/Desktop/gitrepos/doublesubduction": {
+      "architecture": 3,
+      "path": "/Users/lsli/anaconda3/envs/python3.9/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/lsli/anaconda3/envs/python3.9",
+      "fileHash": "4b21a96949e8a155cc9d031e3ef4f1b8385dcc9f6443be4cf1d8c1545c9f09a0666185baf03f3ef317a193af50d1df771fe5a87e0bc3f3ca19e614e0419ec956",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/Users/lsli/anaconda3/envs/python3.9",
+      "envName": "python3.9",
+      "displayName": "Python 3.9.7 64-bit ('python3.9': conda)"
+    }
+  }
+}

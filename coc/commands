@@ -1,0 +1,4 @@
+explorer
+python.setInterpreter
+pyright.restartserver
+pyright.version
