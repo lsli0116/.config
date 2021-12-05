@@ -16,8 +16,10 @@ nvim/plugged/*
 
 !/coc/
 coc/extensions/*
+coc/mru
 !/zsh/
 !/tmux/
 !/alacritty/
 !/neofetch/
+!/lazygit/
 

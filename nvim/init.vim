@@ -464,8 +464,8 @@ Plug 'google/vim-codefmt'
 " Plug 'lervag/vimtex'
 
 " CSharp
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'ctrlpvim/ctrlp.vim' , { 'for': ['cs', 'vim-plug'] } " omnisharp-vim dependency
+"Plug 'OmniSharp/omnisharp-vim'
+"Plug 'ctrlpvim/ctrlp.vim' , { 'for': ['cs', 'vim-plug'] } " omnisharp-vim dependency
 
 " HTML, CSS, JavaScript, Typescript, PHP, JSON, etc.
 Plug 'elzr/vim-json'
@@ -568,7 +568,7 @@ Plug 'itchyny/calendar.vim'
 
 " Other visual enhancement
 Plug 'luochen1990/rainbow'
-Plug 'mg979/vim-xtabline'
+"Plug 'mg979/vim-xtabline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'wincent/terminus'
 
@@ -726,6 +726,8 @@ nmap <silent> gD :tab sp<CR><Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 " nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" rename the variables
 nmap <leader>rn <Plug>(coc-rename)
 nmap tt :CocCommand explorer<CR>
 " coc-translator
@@ -1073,7 +1075,7 @@ augroup autoformat_settings
 	" autocmd FileType gn AutoFormatBuffer gn
 	" autocmd FileType html,css,sass,scss,less,json AutoFormatBuffer js-beautify
 	autocmd FileType java AutoFormatBuffer google-java-format
-	" autocmd FileType python AutoFormatBuffer yapf
+	autocmd FileType python AutoFormatBuffer yapf
 	" Alternative: autocmd FileType python AutoFormatBuffer autopep8
 	" autocmd FileType rust AutoFormatBuffer rustfmt
 	" autocmd FileType vue AutoFormatBuffer prettier
@@ -1083,45 +1085,45 @@ augroup END
 " ===
 " === OmniSharp
 " ===
-let g:OmniSharp_typeLookupInPreview = 1
-let g:omnicomplete_fetch_full_documentation = 1
-
-let g:OmniSharp_server_use_mono = 1
-let g:OmniSharp_server_stdio = 1
-let g:OmniSharp_highlight_types = 2
-let g:OmniSharp_selector_ui = 'ctrlp'
-
-autocmd Filetype cs nnoremap <buffer> gd :OmniSharpPreviewDefinition<CR>
-autocmd Filetype cs nnoremap <buffer> gr :OmniSharpFindUsages<CR>
-autocmd Filetype cs nnoremap <buffer> gy :OmniSharpTypeLookup<CR>
-autocmd Filetype cs nnoremap <buffer> ga :OmniSharpGetCodeActions<CR>
-autocmd Filetype cs nnoremap <buffer> <LEADER>rn :OmniSharpRename<CR><C-N>:res +5<CR>
-
-sign define OmniSharpCodeActions text=💡
-
-augroup OSCountCodeActions
-	autocmd!
-	autocmd FileType cs set signcolumn=yes
-	autocmd CursorHold *.cs call OSCountCodeActions()
-augroup END
-
-function! OSCountCodeActions() abort
-	if bufname('%') ==# '' || OmniSharp#FugitiveCheck() | return | endif
-	if !OmniSharp#IsServerRunning() | return | endif
-	let opts = {
-				\ 'CallbackCount': function('s:CBReturnCount'),
-				\ 'CallbackCleanup': {-> execute('sign unplace 99')}
-				\}
-	call OmniSharp#CountCodeActions(opts)
-endfunction
-
-function! s:CBReturnCount(count) abort
-	if a:count
-		let l = getpos('.')[1]
-		let f = expand('%:p')
-		execute ':sign place 99 line='.l.' name=OmniSharpCodeActions file='.f
-	endif
-endfunction
+"let g:OmniSharp_typeLookupInPreview = 1
+"let g:omnicomplete_fetch_full_documentation = 1
+"
+"let g:OmniSharp_server_use_mono = 1
+"let g:OmniSharp_server_stdio = 1
+"let g:OmniSharp_highlight_types = 2
+"let g:OmniSharp_selector_ui = 'ctrlp'
+"
+"autocmd Filetype cs nnoremap <buffer> gd :OmniSharpPreviewDefinition<CR>
+"autocmd Filetype cs nnoremap <buffer> gr :OmniSharpFindUsages<CR>
+"autocmd Filetype cs nnoremap <buffer> gy :OmniSharpTypeLookup<CR>
+"autocmd Filetype cs nnoremap <buffer> ga :OmniSharpGetCodeActions<CR>
+"autocmd Filetype cs nnoremap <buffer> <LEADER>rn :OmniSharpRename<CR><C-N>:res +5<CR>
+"
+"sign define OmniSharpCodeActions text=💡
+"
+"augroup OSCountCodeActions
+"	autocmd!
+"	autocmd FileType cs set signcolumn=yes
+"	autocmd CursorHold *.cs call OSCountCodeActions()
+"augroup END
+"
+"function! OSCountCodeActions() abort
+"	if bufname('%') ==# '' || OmniSharp#FugitiveCheck() | return | endif
+"	if !OmniSharp#IsServerRunning() | return | endif
+"	let opts = {
+"				\ 'CallbackCount': function('s:CBReturnCount'),
+"				\ 'CallbackCleanup': {-> execute('sign unplace 99')}
+"				\}
+"	call OmniSharp#CountCodeActions(opts)
+"endfunction
+"
+"function! s:CBReturnCount(count) abort
+"	if a:count
+"		let l = getpos('.')[1]
+"		let f = expand('%:p')
+"		execute ':sign place 99 line='.l.' name=OmniSharpCodeActions file='.f
+"	endif
+"endfunction
 
 
 " ===
@@ -1194,16 +1196,16 @@ autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ')
 let g:rainbow_active = 1
 
 
-" ===
-" === xtabline
-" ===
-let g:xtabline_settings = {}
-let g:xtabline_settings.enable_mappings = 0
-let g:xtabline_settings.tabline_modes = ['tabs', 'buffers']
-let g:xtabline_settings.enable_persistance = 0
-let g:xtabline_settings.last_open_first = 1
-noremap to :XTabCycleMode<CR>
-noremap \p :echo expand('%:p')<CR>
+"" ===
+"" === xtabline
+"" ===
+"let g:xtabline_settings = {}
+"let g:xtabline_settings.enable_mappings = 0
+"let g:xtabline_settings.tabline_modes = ['tabs', 'buffers']
+"let g:xtabline_settings.enable_persistance = 0
+"let g:xtabline_settings.last_open_first = 1
+"noremap to :XTabCycleMode<CR>
+"noremap \p :echo expand('%:p')<CR>
 
 
 " ===
@@ -1241,20 +1243,20 @@ cnoreabbrev sw w suda://%
 " ===
 " === vimspector
 " ===
-let g:vimspector_enable_mappings = 'HUMAN'
-function! s:read_template_into_buffer(template)
-	" has to be a function to avoid the extra space fzf#run insers otherwise
-	execute '0r ~/.config/nvim/sample_vimspector_json/'.a:template
-endfunction
-command! -bang -nargs=* LoadVimSpectorJsonTemplate call fzf#run({
-			\   'source': 'ls -1 ~/.config/nvim/sample_vimspector_json',
-			\   'down': 20,
-			\   'sink': function('<sid>read_template_into_buffer')
-			\ })
-" noremap <leader>vs :tabe .vimspector.json<CR>:LoadVimSpectorJsonTemplate<CR>
-sign define vimspectorBP text=☛ texthl=Normal
-sign define vimspectorBPDisabled text=☞ texthl=Normal
-sign define vimspectorPC text=🔶 texthl=SpellBad
+"let g:vimspector_enable_mappings = 'HUMAN'
+"function! s:read_template_into_buffer(template)
+"	" has to be a function to avoid the extra space fzf#run insers otherwise
+"	execute '0r ~/.config/nvim/sample_vimspector_json/'.a:template
+"endfunction
+"command! -bang -nargs=* LoadVimSpectorJsonTemplate call fzf#run({
+"			\   'source': 'ls -1 ~/.config/nvim/sample_vimspector_json',
+"			\   'down': 20,
+"			\   'sink': function('<sid>read_template_into_buffer')
+"			\ })
+"" noremap <leader>vs :tabe .vimspector.json<CR>:LoadVimSpectorJsonTemplate<CR>
+"sign define vimspectorBP text=☛ texthl=Normal
+"sign define vimspectorBPDisabled text=☞ texthl=Normal
+"sign define vimspectorPC text=🔶 texthl=SpellBad
 
 
 " ===
@@ -1301,11 +1303,11 @@ let g:rnvimr_presets = [{'width': 1.0, 'height': 1.0}]
 let g:rnvimr_urc_path = '/Users/lsli/.config/ranger'
 
 "
-" ===
-" === vim-subversive
-" ===
-nmap s <plug>(SubversiveSubstitute)
-nmap ss <plug>(SubversiveSubstituteLine)
+"" ===
+"" === vim-subversive
+"" ===
+"nmap s <plug>(SubversiveSubstitute)
+"nmap ss <plug>(SubversiveSubstituteLine)
 
 
 " ===
