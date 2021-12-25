@@ -98,6 +98,7 @@ endif
 set colorcolumn=100
 set updatetime=100
 set virtualedit=block
+set encoding=utf-8
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
@@ -347,6 +348,18 @@ endfun
 map <F10> :call SynGroup()<CR>
 " Change character
 noremap c r
+noremap tw :call Pandoc2word()<CR>
+
+func! Pandoc2word()
+	exec 
+	\"!pandoc %:t -s -o %:t:r.docx 
+	\	-F zotref.py 
+	\	--lua-filter=scholarly-metadata.lua 
+	\	--lua-filter=author-info-blocks.lua 
+	\	--lua-filter=abstract-to-meta.lua 
+	\	--citeproc 
+	\	--reference-doc=$PANDOC_DIR/templates/custom-reference.docx"
+endfunc
 
 "Compile function
 noremap r :call CompileRunGcc()<CR>
@@ -375,7 +388,7 @@ func! CompileRunGcc()
 	elseif &filetype == 'html'
 		silent! exec "!".g:mkdp_browser." % &"
 	elseif &filetype == 'markdown'
-		exec "InstantMarkdownPreview"
+		exec "MarkdownPreview"
 	elseif &filetype == 'tex'
 		silent! exec "VimtexStop"
 		silent! exec "VimtexCompile"
@@ -511,10 +524,11 @@ Plug 'keith/swift.vim'
 Plug 'arzg/vim-swift'
 
 " Markdown
-Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+"Plug 'suan/vim-instant-markdown', {'for': 'markdown','do': 'yarn install'}
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }
 Plug 'mzlogin/vim-markdown-toc', { 'for': ['gitignore', 'markdown', 'vim-plug'] }
 Plug 'dkarter/bullets.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 " Other filetypes
 " Plug 'jceb/vim-orgmode', {'for': ['vim-plug', 'org']}
@@ -556,6 +570,9 @@ Plug 'brooth/far.vim', { 'on': ['F', 'Far', 'Fardo'] }
 
 " Documentation
 "Plug 'KabbAmine/zeavim.vim' " <LEADER>z to find doc
+
+"Zotero
+Plug 'jalvesaq/zotcite'
 
 " Mini Vim-APP
 "Plug 'jceb/vim-orgmode'
@@ -719,6 +736,7 @@ xmap kc <Plug>(coc-classobj-i)
 omap kc <Plug>(coc-classobj-i)
 xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
+
 " Useful commands
 nnoremap <silent> <space>y :<C-u>CocList -A --normal yank<cr>
 nmap <silent> gd <Plug>(coc-definition)
@@ -753,18 +771,42 @@ imap <C-e> <Plug>(coc-snippets-expand-jump)
 let g:snips_author = 'Linsen Li'
 autocmd BufRead,BufNewFile tsconfig.json set filetype=jsonc
 
+" ===
+" === MarkdownPreview
+" ===
+let g:mkdp_auto_start = 0
+let g:mkdp_auto_close = 0
+let g:mkdp_refresh_slow = 0
+let g:mkdp_command_for_global = 0
+let g:mkdp_open_to_the_world = 0
+let g:mkdp_open_ip = ''
+let g:mkdp_browser = 'safari'
+let g:mkdp_echo_preview_url = 0
+let g:mkdp_browserfunc = ''
+let g:mkdp_preview_options = {
+    \ 'mkit': {},
+    \ 'katex': {},
+    \ 'uml': {},
+    \ 'maid': {},
+    \ 'disable_sync_scroll': 0,
+    \ 'sync_scroll_type': 'middle',
+    \ 'hide_yaml_meta': 1
+    \ }
+let g:mkdp_markdown_css = ''
+let g:mkdp_highlight_css = ''
+let g:mkdp_port = ''
+let g:mkdp_page_title = '「${name}」'
 
 " ===
 " === vim-instant-markdown
 " ===
-let g:instant_markdown_slow = 0
-let g:instant_markdown_autostart = 0
-" let g:instant_markdown_open_to_the_world = 1
-" let g:instant_markdown_allow_unsafe_content = 1
-" let g:instant_markdown_allow_external_content = 0
-" let g:instant_markdown_mathjax = 1
-let g:instant_markdown_autoscroll = 1
-
+"let g:instant_markdown_slow = 0
+"let g:instant_markdown_autostart = 0
+"" let g:instant_markdown_open_to_the_world = 1
+"" let g:instant_markdown_allow_unsafe_content = 1
+"let g:instant_markdown_allow_external_content = 1
+"" let g:instant_markdown_mathjax = 1
+"let g:instant_markdown_autoscroll = 1
 
 " ===
 " === vim-table-mode
@@ -1374,6 +1416,19 @@ let g:any_jump_window_height_ratio = 0.9
 " ===
 let g:typescript_ignore_browserwords = 1
 
+" ===
+" === zotcite
+" ===
+let $ZCitationTemplate = '{author}{Year}'
+let $ZoteroSQLpath = '/Users/lsli/Documents/zotero/zotero.sqlite'
+let zotcite_filetypes = ['markdown', 'pandoc', 'rmd', 'vimwiki']
+let zotcite_conceallevel = 1
+
+nmap <c-]> <Plug>ZOpenAttachment
+nmap ,i <Plug>ZCitationInfo
+nmap ,a <Plug>ZCitationCompleteInfo
+nmap ,y <Plug>ZCitationCompleteInfo
+nnoremap <c-x><c-n> <c-x><c-o> 
 
 " ===
 " === Agit

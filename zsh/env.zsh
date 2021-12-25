@@ -45,4 +45,8 @@ export PATH=/usr/local/bin:$PATH
 export CPLUS_INCLUDE_PATH=/Volumes/AppleExternal.nosync/download/boost
 
 export DYLD_LIBRARY_PATH=/Volumes/AppleExternal.nosync/download/boost:DYLD_LIBRARY_PATH
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin":$PATH
+export PATH="$HOME/.config/nvim/plugged/zotcite/python3":$PATH
+export PANDOC_DIR="/Users/lsli/.pandoc"
+export PATH="$PANDOC_DIR/filters":$PATH
+export PATH="$HOME/Scripts":$PATH
