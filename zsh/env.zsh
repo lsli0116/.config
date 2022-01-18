@@ -50,3 +50,7 @@ export PATH="$HOME/.config/nvim/plugged/zotcite/python3":$PATH
 export PANDOC_DIR="/Users/lsli/.pandoc"
 export PATH="$PANDOC_DIR/filters":$PATH
 export PATH="$HOME/Scripts":$PATH
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/llvm/lib"
+export CPPFLAGS="-I/usr/local/opt/llvm/include"
+export PATH="$HOME/.local/bin":$PATH
