@@ -1,4 +1,5 @@
 explorer
+prettier.formatFile
 python.setInterpreter
 pyright.restartserver
 pyright.version

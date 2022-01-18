@@ -12,7 +12,7 @@ ranger/plugins/*
 
 !/nvim/
 nvim/plugged/*
-
+!/nvim-old/
 
 !/coc/
 coc/extensions/*
